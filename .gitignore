@@ -1,0 +1,88 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+out/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Hardhat
+hh-cache/
+
+# Truffle
+.truffle/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Remix
+.remix
+remix-workspaces.json
+
+# Slither
+.slither.json
+slither.log
+
+# Coverage reports
+coverage/
+coverage-final.json
+
+# ABI files (if stored separately)
+abi/
+
+# Private keys or sensitive data
+private.key
+pk.txt
+key.json
+keys.json
+wallet.json
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+# Wake files
+.wake
